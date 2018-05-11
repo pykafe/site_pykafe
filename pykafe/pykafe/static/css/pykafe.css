@@ -12,9 +12,13 @@ body {
 	margin:0; 
 }
 
-.header {
+nav.navbar.navbar-default.header {
     background-color: #104d62;
     border-color: #e7e7e7;
+}
+
+.navbar-default.header.navbar-nav > li > a {
+    color: #fff;
 }
 
 .entypo-facebook:before {

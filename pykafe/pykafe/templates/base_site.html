@@ -4,34 +4,35 @@
 
 
 {% block header %}
-	<nav class="navbar navbar-default">
-		<div class="container-fluid header">
-			<div class="navbar-header">
-				<a class="navbar-brand title" href="#">Pykafe</a>
-			</div>
-			<ul class="nav navbar-nav navbar-right">
-				<li class="active"><a href="#">{% trans 'Home' %}</a></li>
-				<li><a href="#">{% trans 'About' %}</a></li>
-				<li><a href="#">{% trans 'Resource' %}</a></li>
-				<li><a href="#">{% trans 'Acitvities' %}</a></li>
-				<li><a href="#">{% trans 'Contacts' %}</a></li>
-        <li><a type="button" role="button" href="https://www.facebook.com/ony.dejesus"  target="blank" class="social-icons">
-           <span class="entypo-facebook"></span></a>
+  <nav class="navbar navbar-default header">
+    <div class="container">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand title" href="#">Pykafe</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="#">{% trans 'Home' %}</a></li>
+          <li><a href="#">{% trans 'About' %}</a></li>
+          <li><a href="#">{% trans 'Resource' %}</a></li>
+          <li><a href="#">{% trans 'Acitvities' %}</a></li>
+          <li><a href="#">{% trans 'Contacts' %}</a></li>
+          <li><a type="button" role="button" href="https://www.facebook.com/ony.dejesus"  target="blank" class="social-icons">
+            <span class="entypo-facebook"></span></a>
+          </li>
+          <li class="btn-group select-laguage">
+          <button type="button" class="btn btn-default">{% trans 'English' %}</button>
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <span class="caret"></span>
+            <span class="sr-only">Toggle Dropdown</span>
+          </button>
+          <ul class="dropdown-menu tetum" role="menu">
+            <li><a href="#">{% trans 'Tetum' %}</a></li>
+          </ul>
         </li>
-        <li class="btn-group select-laguage">
-						<button type="button" class="btn btn-default">{% trans 'English' %}</button>
-						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-							<span class="caret"></span>
-							<span class="sr-only">Toggle Dropdown</span>
-						</button>
-						<ul class="dropdown-menu tetum" role="menu">
-							<li><a href="#">{% trans 'Tetum' %}</a></li>
-						</ul>
-        </li>
-			</ul>
-		</div>
-	</nav>
-
+        </ul>
+      </div>
+    </div>
+  </nav>
 {% endblock %}
 
 {% block footer %}
