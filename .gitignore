@@ -94,8 +94,8 @@ ENV/
 # Rope project settings
 .ropeproject
 
-# sqlite
-db.sqlite3
+# Excluding sqlite
+*.sqlite3
 
 # mkdocs documentation
 /site
@@ -103,3 +103,12 @@ db.sqlite3
 # mypy
 .mypy_cache/
 debug.log
+
+# Excluding bower components
+bower_components
+
+# swp files
+*.swp
+
+# tilda files
+*~
