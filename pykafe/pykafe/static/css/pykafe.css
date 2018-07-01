@@ -1,0 +1,48 @@
+html { 
+	height:100%; 
+}
+
+body { 
+    font-family:ProximaNovaA-Regular;
+    background-color:#FFFFFF;
+    font-size: 13px;
+    color: #3d464d;
+	height: 100%
+	padding:0; 
+	margin:0; 
+}
+
+nav.navbar.navbar-default.header {
+    background-color: #104d62;
+    border-color: #e7e7e7;
+}
+
+.navbar-default.header.navbar-nav > li > a {
+    color: #fff;
+}
+
+.entypo-facebook:before {
+    font-family: 'EntypoSocialRegular';
+    font-size: 2em;
+    font-weight: normal;
+    line-height: 0;
+    color: white;
+}
+
+.entypo-facebook:before {
+    content: '\f30e';
+}
+
+li.select-laguage {
+    margin: 8px;
+    padding-right: 8px;
+}
+
+ul.tetum {
+    background: gainsboro;
+    margin: 8px;
+}
+
+a.navbar-brand.title {
+    color: #ffffff;
+}
